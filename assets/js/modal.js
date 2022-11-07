@@ -33,5 +33,4 @@ document.addEventListener('keydown', function (e) {
 signupBtn.addEventListener('click', function (e) {
   e.preventDefault();
   window.open('https://sammyleths.github.io/microbank/', '_blank');
-  window.location.reload();
 });

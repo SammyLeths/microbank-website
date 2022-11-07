@@ -3,6 +3,8 @@ const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 
+const signupBtn = document.querySelector('.sign-up-btn');
+
 const openModal = function (e) {
   e.preventDefault();
   modal.classList.remove('hidden');
@@ -23,4 +25,13 @@ document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
     closeModal();
   }
+});
+
+//////////////////////
+// Modal Form Submission
+
+signupBtn.addEventListener('click', function (e) {
+  e.preventDefault();
+  window.location.reload();
+  window.open('https://sammyleths.github.io/microbank/', '_blank');
 });

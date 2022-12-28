@@ -508,9 +508,19 @@ footer a {
   margin-right: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
+  #navcol-2 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+  }
+
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid #ccc;
+  }
+
   .container-a h1 {
-    font-size: 26px !important;
+    font-size: 30px !important;
     line-height: 34px !important;
   }
 
@@ -520,7 +530,7 @@ footer a {
 
   .sub-head {
     font-size: 21px !important;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
   }
 
   .section-header {
@@ -586,6 +596,7 @@ footer a {
   }
 
   .mb-modal {
+    width: 90% !important;
     padding: 2rem 2rem;
   }
 
@@ -609,28 +620,25 @@ footer a {
 }
 
 @media (max-width: 768px) {
-  #navcol-2 {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background: #fff;
-  }
-
-  .navbar-nav .nav-item {
-    border-bottom: 1px solid #ccc;
-  }
-
   .container-a {
     height: auto;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
   }
 
   .container-a h1 {
-    font-size: 48px;
+    font-size: 34px;
     line-height: 50px;
   }
 
   .section-header {
     font-size: 32px;
     line-height: 40px;
+  }
+
+  .sub-head {
+    font-size: 22px !important;
+    font-weight: 600 !important;
   }
 
   .feature-text-wrapper {
@@ -647,6 +655,26 @@ footer a {
 
   .container {
     max-width: 720px;
+  }
+
+  .hero-intro-text {
+    padding-right: 2rem !important;
+  }
+
+  .mb-modal {
+    width: 70%;
+    padding: 2rem 2rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container-a h1 {
+    font-size: 3.1rem;
+    line-height: 4rem;
+  }
+
+  .hero-intro-text {
+    padding-right: 3rem !important;
   }
 }
 
@@ -696,15 +724,5 @@ footer a {
 
   .footer .list-item {
     margin-right: 20px !important;
-  }
-
-  .hero-intro-text {
-    margin-left: 20px !important;
-  }
-}
-
-@media (width: 1200px) {
-  .hero-image {
-    display: none !important;
   }
 }

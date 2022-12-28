@@ -519,6 +519,10 @@ footer a {
     border-bottom: 1px solid #ccc;
   }
 
+  .container-a {
+    padding-top: 3rem !important;
+  }
+
   .container-a h1 {
     font-size: 30px !important;
     line-height: 34px !important;
@@ -622,7 +626,7 @@ footer a {
 @media (max-width: 768px) {
   .container-a {
     height: auto;
-    padding-top: 5rem !important;
+    padding-top: 5rem;
     padding-bottom: 5rem !important;
   }
 

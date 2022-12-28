@@ -509,6 +509,10 @@ footer a {
 }
 
 @media (max-width: 576px) {
+  .section-heading {
+    width: 100%;
+  }
+
   #navcol-2 {
     border: 1px solid #ccc;
     border-radius: 10px;

@@ -332,7 +332,20 @@
 }
 
 .list-item-link:hover {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #7b86e4 !important;
+}
+
+.reference,
+.copyright {
+  font-size: 0.9rem;
+}
+
+.reference a {
+  text-decoration: underline;
+}
+
+.reference a:hover {
+  color: #7b86e4 !important;
 }
 
 .mb-footer-logo {
@@ -401,6 +414,11 @@ body {
 
 footer a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: #0a58ca;
 }
 
 .mb-modal {

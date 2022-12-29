@@ -332,7 +332,7 @@
 }
 
 .list-item-link:hover {
-  color: #7b86e4 !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .reference,

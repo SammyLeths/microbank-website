@@ -26,7 +26,7 @@ This website is developed with HTML5, CSS3, Vanilla JavaScript and Bootstrap@5
 <h2>Links</h2>
 
 <ul>
-  <li>Demo: <a href="https://microbank.netlify.app/" target="_blank">https://microbank.netlify.app/</a></li>
+  <li>Demo: <a href="https://microbank-website.netlify.app/" target="_blank">https://microbank-website.netlify.app/</a></li>
   <li><a href="https://github.com/SammyLeths/microbank/" target="_blank">Microbank Web app</a></li>
 </ul>
 

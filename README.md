@@ -17,7 +17,7 @@ This website is developed with HTML5, CSS3, Vanilla JavaScript and Bootstrap@5
 
 <h4>Website</h4>
 
-![Artboard 1v1-min](https://user-images.githubusercontent.com/64320618/209923260-a75ee292-26b6-473d-be75-e47f3d195061.png)
+![Artboard 1v2-min](https://user-images.githubusercontent.com/64320618/210125186-dcc41868-a6aa-4108-8dfc-0f37a2b02605.png)
 
 <h4>Web App</h4>
 
